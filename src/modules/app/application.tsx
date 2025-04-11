@@ -20,7 +20,7 @@ const municipalityLayer = new VectorLayer({
 });
 const skoleLayer = new VectorLayer({
   source: new VectorSource({
-    url: "/01_heroku/geojson/skoler.geojson",
+    url: "/01_heroku/api/skoler",
     format: new GeoJSON(),
   }),
 });
